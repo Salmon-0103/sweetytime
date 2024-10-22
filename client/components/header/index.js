@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import Styles from './header.module.scss'
-import Link from 'next/link'
-import Image from 'next/image'
+import React, { useState, useEffect } from 'react';
+import Styles from './header.module.scss';
+import Link from 'next/link';
+import Image from 'next/image';
 
 // 功能還沒寫
 
@@ -63,5 +63,5 @@ export default function Header(props) {
         <Image src={'/icon/navButton.svg'} alt="" width={30} height={30} />
       </Link>
     </header>
-  )
+  );
 }
